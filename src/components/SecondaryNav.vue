@@ -1,7 +1,7 @@
 <template>
-  <div class="secondary-nav">
+  <div class="secondary-nav  flex mr-10 ml-64 mt-10 ">
     <div>
-      <span class="nav-item">Sinu Pood</span>
+      <span class="nav-item ">Sinu Pood</span>
     </div>
     <div>
       <span class="nav-item">Sirvi</span>
@@ -13,7 +13,7 @@
       <span class="nav-item">Uudised</span>
     </div>
     <div>
-      <span class="nav-item">Labor</span>
+      <span class="nav-item ">Labor</span>
     </div>
     <div class="search">
       <input type="text" name="search" />
@@ -25,7 +25,6 @@
   display: flex;
   flex: 1;
   border: 1px solid rgba(16, 21, 25, 0.3);
-  margin: 0 10rem;
   background-color: rgba(62, 126, 167, 0.8);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
